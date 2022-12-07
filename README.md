@@ -19,7 +19,7 @@ default port: 8080
 ```
     git clone https://github.com/haxqer/jira.git \
         && cd jira \
-        && git checkout rm \
+        && git checkout 9.5.0 \
         && docker-compose pull \
         && docker-compose up
 ```
@@ -46,7 +46,7 @@ default port: 8080
 - start jira
 
 ```
-    docker run -p 8080:8080 -v jira_home_data:/var/jira --network jira-network --name jira-srv -e TZ='Asia/Shanghai' haxqer/jira:9.4.0
+    docker run -p 8080:8080 -v jira_home_data:/var/jira --network jira-network --name jira-srv -e TZ='Asia/Shanghai' haxqer/jira:9.5.0
 ```
 
 - config your own db:
