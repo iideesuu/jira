@@ -5,9 +5,9 @@
 [README](README.md) | [中文文档](README_zh.md)
 
 
-+ Long Term Support Version(arm64&amd64): v9.12.14
-+ Latest Version(arm64&amd64): v9.17.4
-+ Beta Version(arm64&amd64): v10.1.1
++ Long Term Support Version(arm64&amd64): v9.12.16
++ Latest Version(arm64&amd64): v9.17.5
++ Beta Version(arm64&amd64): v10.3.0
 + [The new way](https://github.com/haxqer/jira/tree/build-your-own) of use allows you to conveniently upgrade and modify parameters on your own, and it offers convenient support for HTTPS (thanks to [xsharp](https://github.com/xsharp)).
 
 New Confluence/Jira releases support only Data Center licenses. To generate a Data Center licenses, add the `-d` parameter.
@@ -52,7 +52,7 @@ passwd=123456
 - start jira
 
 ```
-docker volume create jira_home_data && docker network create jira-network && docker run -p 8080:8080 -v jira_home_data:/var/jira --network jira-network --name jira-srv -e TZ='Asia/Shanghai' haxqer/jira:9.17.4
+docker volume create jira_home_data && docker network create jira-network && docker run -p 8080:8080 -v jira_home_data:/var/jira --network jira-network --name jira-srv -e TZ='Asia/Shanghai' haxqer/jira:9.17.5
 ```
 
 - config your own db:
