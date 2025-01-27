@@ -7,7 +7,7 @@
 
 + Long Term Support Version(arm64&amd64): v9.12.17
 + Latest Version(arm64&amd64): v9.17.5
-+ Beta Version(arm64&amd64): v10.3.2
++ Beta Version(arm64&amd64): v10.4.0
 + [The new way](https://github.com/haxqer/jira/tree/build-your-own) of use allows you to conveniently upgrade and modify parameters on your own, and it offers convenient support for HTTPS (thanks to [xsharp](https://github.com/xsharp)).
 
 New Confluence/Jira releases support only Data Center licenses. To generate a Data Center licenses, add the `-d` parameter.

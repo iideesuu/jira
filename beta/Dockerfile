@@ -1,8 +1,8 @@
 FROM openjdk:17-bullseye
 
-LABEL maintainer="haxqer <haxqer666@gmail.com>" version="10.3.2"
+LABEL maintainer="haxqer <haxqer666@gmail.com>" version="10.4.0"
 
-ARG JIRA_VERSION=10.3.2
+ARG JIRA_VERSION=10.4.0
 # Production: jira-software jira-core
 ARG JIRA_PRODUCT=jira-software
 ARG AGENT_VERSION=1.3.3
