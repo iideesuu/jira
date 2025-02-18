@@ -14,6 +14,10 @@ New Confluence/Jira releases support only Data Center licenses. To generate a Da
 
 default port: `8080`
 
+
+Video Guide:
+[![Jira Complete Installation Guide](https://img.youtube.com/vi/en-h7m2Xv5I/0.jpg)](https://www.youtube.com/watch?v=en-h7m2Xv5I "Jira Complete Installation Guide")
+
 ## requirement
 - docker: 17.09.0+
 - docker-compose: 1.24.0+

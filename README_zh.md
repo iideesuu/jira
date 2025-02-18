@@ -16,6 +16,11 @@
 
 默认端口: `8080`
 
+
+视频教程:
+[![Jira Complete Installation Guide](https://img.youtube.com/vi/en-h7m2Xv5I/0.jpg)](https://www.youtube.com/watch?v=en-h7m2Xv5I "Jira Complete Installation Guide")
+
+
 ## 环境要求
 - docker: 17.09.0+
 - docker-compose: 1.24.0+
