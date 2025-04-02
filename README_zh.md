@@ -7,7 +7,7 @@
 
 [README](README.md) | [中文文档](README_zh.md)
 
-+ Long Term Support Version(支持 arm64&amd64): v9.12.18
++ Long Term Support Version(支持 arm64&amd64): v9.12.19
 + Latest Version(支持 arm64&amd64): v9.17.5
 + Beta Version(支持 arm64&amd64): v10.4.0
 + [新的使用方式](https://github.com/haxqer/jira/tree/build-your-own) ，您可方便自行升级、修改各参数，支持https (感谢 [xsharp](https://github.com/xsharp)).
